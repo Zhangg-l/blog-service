@@ -19,7 +19,7 @@ App:
     - .png  
 Database:
   DBType: mysql
-  Password: ROOT@zhangg8719
+  Password: ****
   Username: root
   Host: 127.0.0.1:3306
   DBName: blog_service
@@ -29,16 +29,14 @@ Database:
   MaxIdleConns: 10
   MaxOpenConns: 30
 JWT:
-  Secret: zhangg
-  Issuer: blog-service
+  Secret: ****
+  Issuer: ****
   Expire: 7200
 Email:
   Host: smtp.qq.com
   Port: 465
   UserName: 871947276@qq.com
-  Password: uijvlcacwuslbcej
+  Password: ****
   IsSSL: true
   From: 871947276@qq.com
   To:
-    - 952779081@qq.com
-    - 1967508123@qq.com
